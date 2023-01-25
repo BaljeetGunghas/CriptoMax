@@ -1,6 +1,7 @@
 import { VStack } from '@chakra-ui/react'
 import React from 'react'
 
+
 const ErrorHandlingPage = ({error}) => {
   return (
     <VStack w={"52"} shadow={"lg"} bgColor={"#dc3545"} textColor="white" h={"auto"} marginTop={"32"} marginBottom={"32"} rounded="2xl" p={"10"}  mx={"auto"} >

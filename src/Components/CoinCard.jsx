@@ -3,7 +3,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './style/exchange.css'
 
-
 const CoinCard = ({ id, name, image, symbol , price, currencySymbole}) => {
     return (
         <Link to={`/coin/${id}`} >

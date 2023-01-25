@@ -32,7 +32,6 @@ const Exchange = () => {
             })
     }, [])
 
-
     return (
         <>
             {loader ? <Loader />

@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 
 const handleDragStart = (e) => e.preventDefault();
 
-
 const TrandingSlick = ({ tranding }) => {
     
 

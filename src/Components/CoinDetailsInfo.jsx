@@ -1,7 +1,7 @@
 import React from 'react'
 import { Badge, Image, Stat, StatArrow, StatHelpText, StatLabel, StatNumber, Text, VStack, Box, HStack } from '@chakra-ui/react'
-const CoinDetailsInfo = ({ coin, currency, currencySymbole }) => {
 
+const CoinDetailsInfo = ({ coin, currency, currencySymbole }) => {
 
     return (
         <VStack spacing={'2'} px='16' alignItems={'flex-start'} w={['full', 'container.md']} mx='auto'>

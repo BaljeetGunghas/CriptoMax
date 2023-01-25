@@ -2,7 +2,6 @@ import { HStack, Image, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 import './style/exchange.css'
 
-
 const NewsCard = ({ item }) => {
     return (
         <a href={item?.url} target={'blank'} className='newsLink'   >

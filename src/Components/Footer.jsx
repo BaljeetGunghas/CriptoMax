@@ -7,6 +7,7 @@ import { RxLinkedinLogo } from "react-icons/rx";
 import { FaGithubSquare, FaInstagram, FaPinterestSquare } from "react-icons/fa";
 
 const Footer = () => {
+  
   return (
     <HStack justifyContent={'space-between'} textAlign={['center', 'initial']} p='5' px={'32'} bgColor={'#000000'} flexDirection={['column', 'row']}  >
       <VStack maxW={'container.sm'} alignItems={['center', 'self-start']}  >

@@ -24,6 +24,7 @@ const Chart = ({ chartdata = [], currency, days }) => {
         pointBackgroundColor: 'rgb(75, 192, 192,0.0)',
     }
 
+    
     return (
         <Line
             options={{

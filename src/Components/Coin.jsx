@@ -8,6 +8,7 @@ import './style/exchange.css'
 
 const Coin = () => {
 
+    
     const [coins, setCoins] = useState([]);
     const [error, setError] = useState(false);
     const [errorInfo, setErrorInfo] = useState();

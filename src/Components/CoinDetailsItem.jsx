@@ -1,6 +1,7 @@
 import {  HStack, Text } from '@chakra-ui/react'
 import React from 'react'
 
+
 const CoinDetailsItem = ({ title, value }) => {
   return (
 

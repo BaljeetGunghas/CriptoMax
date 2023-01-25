@@ -36,7 +36,6 @@ const News = () => {
     },[error])
     
 
-
     return (
         <>
         {loader ?

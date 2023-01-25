@@ -11,8 +11,7 @@ import './Components/style/global.css'
 
 
 const App = () => {
-
-
+console.log('...///');
     return (
         <Router >
             <Navbar />

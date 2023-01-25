@@ -23,7 +23,6 @@ const Home = () => {
   }, [])
 
 
-
   return (
     <VStack  h={'full'} w={'full'} overflow="hidden" justifyContent={'center'} py={'20'} px={['10','40']} gap={'5'} bgImg={'https://images.pexels.com/photos/3057960/pexels-photo-3057960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} backgroundSize={'cover'}  >
       <VStack w={'full'} alignItems={'flex-start'}   >

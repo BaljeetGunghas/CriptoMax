@@ -9,7 +9,6 @@ const Navbar = () => {
         <Image src=' https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=024' alt='logosvgicon' w={'7'} h={'7'} />
         <Heading fontSize={['large', '2xl']} color={'white'}>CriptoMAX</Heading>
       </HStack>
-
       <HStack>
         <Button variant={"unstyled"} color={"white"}>
           <Link to={"/"}>Home</Link>

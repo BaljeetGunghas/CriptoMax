@@ -21,7 +21,6 @@ const CoinDetails = () => {
   const [activedays, setActivedays] = useState("1D")
   const [coinNews, setCoinNews] = useState([])
 
-
   const param = useParams()
   const currencySymbole = currency === "inr" ? "₹" : currency === "eur" ? "€" : "$"
 
